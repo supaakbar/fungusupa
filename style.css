@@ -1,0 +1,151 @@
+body {
+    background: #ffffff; 
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    font-family: 'Trebuchet MS';
+} 
+a {color: #000000;}   
+* {
+    box-sizing: border-box;
+}
+#container {
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    background: white;
+}           
+#header {
+    width: 100%; 	
+    height: 150px; 	
+    margin: 0; 
+    padding: 20px; 
+    border: 0; 
+    background: #7da87b; 
+    color: #f2f2f2;
+    clear:both;
+    display: block;
+}  
+#headsidebar {
+    width: 20%;
+    height: 100%; 	
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: #7da87b;
+    vertical-align: top;
+}           
+#headcontent {
+    width: 80%; 
+    height: 100%; 	
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: #7da87b;
+}   
+#cover {
+    width: 100%; 	
+    height: 500px; 	
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    background: #f5f5c6;
+}  
+#topnav {
+    overflow: hidden;
+    background-color: #7da87b;
+    width: 100%;
+
+}
+#topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 31px 33px;
+    text-decoration: none;
+}
+#topnav a:hover {
+    background-color: #f5f5c6;
+    color: black;
+}         
+#sidebar {
+    width: 15%; 
+    height: 400px; 	
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: white;
+}           
+#content {
+    width: 70%;  	
+    margin: 0; 
+    padding: 10px; 
+    border: 0; 
+    float: left; 
+    background: white;
+}   
+#logincontent {
+    width: 20%;  	
+    margin: 0; 
+    padding: 10px; 
+    border: 0; 
+    float: left; 
+    background: white;
+}   
+#loginsidebar {
+    width: 40%; 
+    height: 400px; 	
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: white;
+}           
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 25%;
+}
+tr:nth-child(even) {
+    background-color: white;
+}            
+#footer {
+    width: 100%; 	
+    height: 150px; 	
+    margin: 0; 
+    padding: 20px; 
+    border: 0; 
+    background: #7da87b; 
+    color: #f2f2f2;
+    clear:both;
+    display: block;
+}  
+#footsidebar {
+    width: 20%;
+    height: 100%; 	
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: #7da87b;
+    vertical-align: top;
+}           
+#footcontent {
+    width: 80%; 
+    height: 100%; 	
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: #7da87b;
+}                             
